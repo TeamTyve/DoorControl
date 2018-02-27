@@ -15,7 +15,7 @@ namespace DoorControl.Unit.Test
         [Test]
         public void AddTest()
         {
-            Assert.That(uut.Add(3, 2), Is.EqualTo(5));
+            Assert.That(uut.Add(3, 6), Is.EqualTo(9));
         }
 
 }
