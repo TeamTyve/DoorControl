@@ -11,11 +11,12 @@ namespace DoorControl.Unit.Test
     public class DoorControlTest
     {
         private Program uut = new Program();
+
         [Test]
         public void AddTest()
         {
-            Assert.That(uut.Add(2,2), Is.EqualTo(4));
+            Assert.That(uut.Add(3, 2), Is.EqualTo(5));
         }
 
-    }
+}
 }
