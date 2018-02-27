@@ -10,7 +10,7 @@ namespace DoorControl.Unit.Test
 {
     public class DoorControlTest
     {
-        private Program uut = new Program();
+        private DoorControl uut = new DoorControl();
 
         [Test]
         public void AddTest()

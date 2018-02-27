@@ -7,7 +7,7 @@ using Microsoft.Win32;
 
 namespace DoorControl
 {
-    public class Program
+    public class DoorControl
     {
         static void Main(string[] args)
         {
